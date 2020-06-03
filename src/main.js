@@ -5,6 +5,7 @@ import store from './store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 
+
 // START ////////////////////////////////////////
 // automatic global component registration
 
