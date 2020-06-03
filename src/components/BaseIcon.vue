@@ -1,8 +1,11 @@
 <template>
     <div class="icon-wrapper">
+        <slot name="pre-icon"></slot>
         <svg class="icon" :width="width" :height="height">
             <use v-bind="{'xlink:href':'/feather-sprite.svg#'+name}"/>
         </svg>
+        <slot name="post-icon"></slot>
+        <slot name="my-template"></slot>
     </div>
 </template>
 
